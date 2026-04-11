@@ -6,7 +6,6 @@
 body {
   color: white;
   background-color: #0a0e27;
-  width: 1920px;
   height: 1080px;
   padding-top: 70px;
 }
@@ -93,7 +92,7 @@ ul {
   margin: 0 20px;
 }
 .title-high {
-  color: #03ff40;
+  color: #2503ff;
 }
 .title-all {
   display: inline-block;
@@ -134,7 +133,7 @@ ul {
   font-size: 17px;
 }
 .btn:hover {
-  background-color: #03ff40;
+  background-color: #4203ff;
   color: white;
 }
 .right {
@@ -160,16 +159,50 @@ ul {
 .box-container {
   display: flex;
   flex-wrap: wrap;
-  width: 1920px;
-  gap: 10px;
-  padding: 20px;
+  width: 1000px;
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-left: 200px;
 }
 
 .box {
-  width: 600px;
-  height: 100px;
-  font-size: 30px;
-  border: 5px solid rgb(255, 255, 255);
-  background-color: #03ff40;
-  flex: 11 40;
+  width: 300px;
+  font-size: 14px;
+  border-radius: 12px;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  color: grey;
+} /*밑에 내용부분*/
+
+.box a {
+  color: white;
+}
+
+.toggle {
+  color: #eaff00;
+  font-size: 14px;
+  cursor: pointer;
+} /*이건 자세히보기 그 부분*/
+
+.category-tag {
+  color: #03ff40;
+  font-size: 12px;
+  background-color: #1a2e1a;
+  padding: 4px 10px;
+  border-radius: 20px;
+} /*웹보안카테고리이거*/
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
