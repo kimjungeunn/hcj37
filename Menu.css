@@ -27,7 +27,7 @@ body {
   text-align: left;
 }
 .navbar > .container {
-  max-width: 100%;
+  max-width: 1500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,7 +67,7 @@ ul {
 .box-container {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 1700px;
   gap: 40px;
   margin: 80px auto;
   padding: 0 40px;
@@ -109,10 +109,32 @@ p {
   cursor: pointer;
 }
 
-.category-tag {
+.category-tag1 {
   margin-left: auto;
   margin-right: -10px;
   color: #03ff40;
+  font-size: 16px;
+  background-color: #1a2e1a;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-top: -15px;
+}
+
+.category-tag2 {
+  margin-left: auto;
+  margin-right: -10px;
+  color: #038eff;
+  font-size: 16px;
+  background-color: #1a2e1a;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-top: -15px;
+}
+
+.category-tag3 {
+  margin-left: auto;
+  margin-right: -10px;
+  color: #ff0303;
   font-size: 16px;
   background-color: #1a2e1a;
   padding: 4px 10px;
