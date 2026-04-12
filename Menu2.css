@@ -153,14 +153,3 @@ ul {
   display: flex;
   justify-content: center;
 }
-
-.nanum-pen-script-regular {
-  font-family: 'Nanum Pen Script', cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.font {
-  font-family: 'nanum pen script regular', cursive;
-  font-size: 20px;
-}
