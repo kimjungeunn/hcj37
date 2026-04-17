@@ -34,6 +34,7 @@ body {
   align-items: center;
   height: 100%;
   margin: 0 auto;
+  padding: 0 40px;
 }
 .navbar > .container > .nav {
   display: flex;
