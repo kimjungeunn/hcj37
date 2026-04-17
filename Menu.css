@@ -27,14 +27,12 @@ body {
   text-align: left;
 }
 .navbar > .container {
-  max-width: 1600px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  margin: 0 auto;
-  padding: 0 40px;
+  /*margin: 0 auto;
+  padding: 0 40px;*/
 }
 .navbar > .container > .nav {
   display: flex;
